@@ -51,5 +51,5 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  // write your code here
+  if(cardNumber === 'undefined') return 'Sorry we don\'t have a creadit card on file for you.'
 }
