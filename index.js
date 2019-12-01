@@ -58,5 +58,5 @@ function placeOrder(cardNumber) {
     totalSum = cart[i].itemPrice
   }
   return `Your total cost is $${totalSum}, which will be charged to the card ${cardNumber}.`
-  cart = []
+  cart = 0
 }
