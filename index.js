@@ -57,6 +57,6 @@ function placeOrder(cardNumber) {
     console.log(cart[i].itemPrice)
     totalSum = cart[i].itemPrice
   }
-  return `Your total cost is $${totalSum}, which will be charged to the card ${cardNumber}.`
   cart = 0
+  return `Your total cost is $${totalSum}, which will be charged to the card ${cardNumber}.`
 }
